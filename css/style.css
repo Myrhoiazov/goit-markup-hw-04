@@ -145,8 +145,8 @@ body {
 
   font-weight: 400;
   font-size: 14px;
-  line-height: 1.1;
-  letter-spacing: 0.02em;
+  line-height: 1.7;
+  letter-spacing: 0.03em;
   font-style: normal;
   text-decoration: none;
 }
@@ -170,7 +170,7 @@ body {
 }
 
 .footer-contact .item {
-  margin-bottom: 10px;
+  margin-bottom: 9px;
 }
 
 .footer-contact .item:last-child {
@@ -319,8 +319,8 @@ body {
   text-align: center;
 
   max-width: 1600px;
-  margin-left: 0;
-  margin-right: 0;
+  margin-left: auto;
+  margin-right: auto;
 
   margin-top: 80px;
 
@@ -540,7 +540,8 @@ body {
   background-color: var(--blu-brand-color);
 }
 
-.social-link:hover .social-icon, .social-link:focus .social-icon{
+.social-link:hover .social-icon,
+.social-link:focus .social-icon {
   fill: var(--white-brand-color);
 }
 
