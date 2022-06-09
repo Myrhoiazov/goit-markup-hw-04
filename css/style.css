@@ -607,6 +607,7 @@ body {
 
 .footer-row {
   display: flex;
+  align-items: baseline;
 }
 
 .footer-social {
@@ -614,7 +615,6 @@ body {
 }
 
 .footer-social-text {
-  padding-top: 10px;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.2;
